@@ -22,15 +22,12 @@ body {
     padding: 50px;
     width: 100vw;
     min-height: 100vh;
+    max-width: 1000px;
+    margin: 50px auto;
 }
 
 .content img {
     max-width: 100%;
-}
-
-.content {
-    max-width: 1000px;
-    margin: 50px auto;
 }
 
 .content h1 {

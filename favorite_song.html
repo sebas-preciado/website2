@@ -7,11 +7,33 @@
     </head>
 
     <body>
-        <script src="js/favorite_song.js"></script>
+        <div class="content">
+            <h1>Favorite Song</h1>
+            <small>(Navigation is at the very bottom of the page)</small>
+            <p>My favorite song, currently, is probably "Stay Awake" by These Streets. The genre is metal. These Streets have around 30,000 monthly listeners on Spotify.</p>
+
+            <h3>Album Cover</h3>
+            <img src="https://f4.bcbits.com/img/a2074580856_10.jpg">
+        </div>
+
         <button class="btn">
             <i class="fas fa-home"></i>
                 <a href="index.html" style="text-decoration:none;">Home</a>
         </button>
 
+        <button class="btn">
+            <a href="favorite_videogame.html" style="text-decoration:none;">Favorite Video Game</a>
+        </button>
+
+        <button class="btn">
+            <a href="favorite_food.html" style="text-decoration:none;">Favorite Food</a>
+        </button>
+
+        <audio id="song" src="sounds/stayawake.mp3" preload="auto"></audio>
+        <button class="btn" onclick="document.getElementById('song').play();">Play Song</button>
+
+
+
+        <script src="js/favorite_song.js"></script>
     </body>
 </html>
